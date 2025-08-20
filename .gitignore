@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# environment
+.env
+server/.env
+
+# build outputs
+build/
+dist/
+
+# macOS junk
+.DS_Store
