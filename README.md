@@ -98,7 +98,6 @@ Open in browser 👉 http://localhost:3000
 ## 🎨 Screenshots
 
 ### Dashboard
-<img width="558" height="605" alt="Screenshot - Weather dashboard2" src="https://github.com/user-attachments/assets/78583224-6934-4a7e-91ed-a90f5f6c5325" />
 
 ![Weather Dashboard](assets/screenshot_dashboard.png)
 
