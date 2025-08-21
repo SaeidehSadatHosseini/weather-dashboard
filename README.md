@@ -101,13 +101,9 @@ Open in browser 👉 http://localhost:3000
 ![Weather Dashboard](assets/screenshot_dashboard.png)
 
 ### Favorites
-![Weather Dashboard Favorites](assets/screenshot_favorites.png)
+![Weather Dashboard Favorites](https://github.com/user-attachments/assets/4e2a20f3-a2b2-4c21-81e5-ae8efc5537e9)
 
 
 <p><img width="509" height="514" alt="Image" src="https://github.com/user-attachments/assets/b7b045b8-0aa0-4260-b021-3cdf311b8f6a" />
 </p>
-
-<p><img width="558" height="605" alt="Image" src="https://github.com/user-attachments/assets/4e2a20f3-a2b2-4c21-81e5-ae8efc5537e9" />
-</p>
-
 
