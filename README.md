@@ -16,8 +16,20 @@ Users can search for cities, view current weather, and save favorite cities.
 ## 🛠️ Tech Stack
 - **Frontend:** React, Tailwind CSS, Fetch API  
 - **Backend:** Node.js, Express.js, PostgreSQL  
-- **API:** [OpenWeather](https://openweathermap.org/api)  
+- **API:** [OpenWeather](https://openweathermap.org/api)
 
+
+
+## 🎨 Screenshots
+
+### Dashboard 
+
+ ![Weather Dashboard Favorites](./assets/screenshot_dashboard.png)
+
+
+### Favorites
+
+![Weather Dashboard Favorites](assets/screenshot_favorites.png)
 ---
 
 ## 📂 Project Structure
@@ -95,16 +107,4 @@ npm start
 Open in browser 👉 http://localhost:3000
 
 
-## 🎨 Screenshots
-
-### Dashboard
-
-![Weather Dashboard](assets/screenshot_dashboard.png)
-
-### Favorites
-![Weather Dashboard Favorites](./assets/screenshot_dashboard.png)
-
-
-<p><img width="509" height="514" alt="Image" src="https://github.com/user-attachments/assets/b7b045b8-0aa0-4260-b021-3cdf311b8f6a" />
-</p>
 
