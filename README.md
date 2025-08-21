@@ -101,7 +101,7 @@ Open in browser 👉 http://localhost:3000
 ![Weather Dashboard](assets/screenshot_dashboard.png)
 
 ### Favorites
-![Weather Dashboard Favorites](https://github.com/SaeidehSadatHosseini/weather-dashboard/blob/d3194c4a34ff37e0fbe382c6e2fb5bf07d87fc3e/assets/screenshot_dashboard.png)
+![Weather Dashboard Favorites](./assets/screenshot_dashboard.png)
 
 
 <p><img width="509" height="514" alt="Image" src="https://github.com/user-attachments/assets/b7b045b8-0aa0-4260-b021-3cdf311b8f6a" />
