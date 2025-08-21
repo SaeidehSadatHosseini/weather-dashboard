@@ -60,40 +60,29 @@ pool.connect()
 // Routes
 // ----------------------
 
-// GET all favorites
+// Get all favorites
 app.get("/favorites", async (req, res) => {
-  try {
-    const result = await pool.query("SELECT * FROM favorites");
-    res.json(result.rows);
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ error: "Database error" });
-  }
+  const result = await pool.query("SELECT * FROM favorites");
+  res.json(result.rows);
 });
 
-// POST new favorite
+// Add new favorite
 app.post("/favorites", async (req, res) => {
   const { city_name } = req.body;
-  try {
-    await pool.query("INSERT INTO favorites (city_name) VALUES ($1)", [city_name]);
-    res.status(201).json({ message: "City Added" });
-  } catch (err) {
-    console.error(err);
-    res.status(500).json({ error: "Database error" });
-  }
+  const result = await pool.query(
+    "INSERT INTO favorites (city_name) VALUES ($1) RETURNING *",
+    [city_name]
+  );
+  res.json(result.rows[0]);
 });
 
-// DELETE favorite
-app.delete("/favorites/:city", async (req, res) => {
-  const { city } = req.params;
-  try {
-    await pool.query("DELETE FROM favorites WHERE city_name = $1", [city]);
-    res.json({ message: "City removed" });
-  } catch (err) {
-    console.error(err);
-    res.status(500).json({ error: "Database error" });
-  }
+// Delete favorite
+app.delete("/favorites/:id", async (req, res) => {
+  const { id } = req.params;
+  await pool.query("DELETE FROM favorites WHERE id = $1", [id]);
+  res.sendStatus(204);
 });
+
 
 // ----------------------
 // Start server
