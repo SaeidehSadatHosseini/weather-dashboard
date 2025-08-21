@@ -98,8 +98,8 @@ Open in browser 👉 http://localhost:3000
 ## 🎨 Screenshots
 
 ### Dashboard
-![Weather Dashboard](assets/screenshot-dashboard.png)
+![Weather Dashboard](assets/screenshot_dashboard.png)
 
 ### Favorites
-![Weather Dashboard Favorites](https://github.com/user-attachments/assets/16827cb7-b0e4-43bf-9130-f419888c79e3)
+![Weather Dashboard Favorites](assets/screenshot_favorites.png)
 
