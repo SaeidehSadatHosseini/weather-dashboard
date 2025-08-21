@@ -98,8 +98,7 @@ Open in browser 👉 http://localhost:3000
 ## 🎨 Screenshots
 
 ### Dashboard
-![Weather Dashboard](<img width="509" height="514" alt="Image" src="https://github.com/user-attachments/assets/12c60d99-3cc8-47d0-9afc-00fc16afc6c6" />
-)
+![Weather Dashboard](https://github.com/user-attachments/assets/2ebbf9fc-4cf8-4c09-a354-b722df5cf365)
 
 ### Favorites
 ![Weather Dashboard Favorites](https://github.com/user-attachments/assets/97948724-d68a-4064-9c02-7f78bcdb13f0)
