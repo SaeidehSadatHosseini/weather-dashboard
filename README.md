@@ -95,7 +95,11 @@ npm start
 Open in browser 👉 http://localhost:3000
 
 
-🎨 Screenshots
-[Weather Dashboard Home And Favorite List ](assets/Screenshot - Weather dashboard.png - Weather dashboard.png - Weather dashboard.png)
-(assets/Screenshot - Weather dashboard2.png)
+## 🎨 Screenshots
+
+### Dashboard
+![Weather Dashboard](assets/screenshot-dashboard.png)
+
+### Favorites
+![Weather Dashboard Favorites](assets/screenshot-favorites.png)
 
